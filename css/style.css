@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.header{
+    background-color: #FFF9F4;
+}
+.shoes-card{
+    border: none;
+    border-radius: 10px;
+}
+.shoes-card-footer{
+    border: none;
+    background-color: white;
+}
+.shoes-card img{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    width: 92%;
+}
+.shoes-card-price{
+    color: #FA804C;
+}
+.formal-shoes-card{
+    border: none;
+    border-radius: 10px;
+}
+.services-card{
+    border: none;
+    border-radius: 10px;
+}
+.services-card img{
+    width: 100px;
+}
