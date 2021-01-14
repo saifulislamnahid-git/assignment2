@@ -1,5 +1,10 @@
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 }
 h1{
     font-family: 'Bebas Neue', cursive;
@@ -7,9 +12,24 @@ h1{
 .header{
     background-color: #FFF9F4;
 }
+.header li a{
+    font-weight: 500;
+    color: #3C3C3C;
+}
+.button-style{
+    background-color: #3A4ADD;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.button-style i{
+    margin-right: 5px;
+}
 .shoes-card{
     border: none;
     border-radius: 10px;
+}
+.shoes-card h2, .section-title, .formal-shoes-card h2, .services-card h4, .shipping h4{
+    color: #363958;
 }
 .shoes-card-footer{
     border: none;
@@ -33,4 +53,29 @@ h1{
 }
 .services-card img{
     width: 100px;
+    height: 100px;
+}
+.shipping-card-header{
+    border: none;
+    background-color: #fff;
+}
+.shipping i{
+    font-size: 40px;
+    color: #3ED9C7;
+}
+.banner-content{
+    width: 400px;
+}
+.banner-content h1{
+    color: #FA804C;
+    font-size: 65px;
+}
+.banner-content span{
+    color: #363958;
+}
+.shipping-card-content{
+    border-radius: 5px;
+}
+.shipping-card{
+    border: none;
 }
